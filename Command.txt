@@ -1,0 +1,14 @@
+docker -v
+docker run hello-world // สร้าง images 
+docker ps
+docker ps -all
+docker run busy box ping google.com
+docker stop รหัส/ชื่อ เช่น docker stop a5asdas561
+docker run nginx
+docker -d -p 7800:80 nginx
+docker images
+docker system df
+docker rm images รหัสชื่อ เช่น docker stop a5asdas561
+docker ls
+dokcer info
+dokcer run -p 80:80 nginx
